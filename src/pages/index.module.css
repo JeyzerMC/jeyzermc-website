@@ -1,5 +1,13 @@
-/* .user {
-    width: 50%;
-    margin-left: auto;
-    color: blue;
-} */
+.frontPage{
+    height: 100vh;
+}
+
+.headline {
+    /* background: rgb(233, 168, 168); */
+    color: rgb(99, 99, 189);
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    width: 70%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
