@@ -65,6 +65,7 @@ color:
 
   background:
     gray: '#666'
+    dark-gray: '#333'
 # FONT
 font:
   # font options

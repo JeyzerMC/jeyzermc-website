@@ -167,7 +167,6 @@ class Menu extends React.Component {
         <style jsx>{`
           .menu {
             align-items: center;
-            background: ${theme.color.neutral.white};
             bottom: 0;
             display: flex;
             flex-grow: 1;

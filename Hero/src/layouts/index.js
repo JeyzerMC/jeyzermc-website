@@ -111,7 +111,6 @@ class Layout extends React.Component {
                   font-family: ${this.state.font400loaded
                     ? "'Open Sans', sans-serif;"
                     : "Arial, sans-serif;"};
-                  background: ${this.state.theme.color.background.gray};
                 }
                 h1,
                 h2,
