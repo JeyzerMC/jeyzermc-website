@@ -6,11 +6,11 @@ author: "jeyzer"
 date: "2018-08-26"
 tags:
     - Hackathon
-    - Mission Hacks
-    - React-native
+    - Prototyping
+    - Education
 ---
 # Placeholder for Passage project
 
-## Hackathon 2018
+## Protohacks Vancouver 2018
 
 Test

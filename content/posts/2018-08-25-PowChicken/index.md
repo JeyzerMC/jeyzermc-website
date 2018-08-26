@@ -5,12 +5,13 @@ category: "tech"
 author: "jeyzer"
 date: "2018-08-25"
 tags:
-    - Hackathon
-    - Mission Hacks
-    - React-native
+    - Game-dev
+    - Project
+    - Jam
+    - Unity3D
 ---
 # Placeholder for Pow Chicken Pow Pow project
 
-## Hackathon 2018
+## Creative Game Jam 10e
 
 Test

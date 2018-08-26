@@ -6,11 +6,11 @@ author: "jeyzer"
 date: "2018-08-19"
 tags:
     - Hackathon
-    - Mission Hacks
+    - Mobile 
     - React-native
 ---
 # Placeholder for Curiocity project
 
-## Hackathon 2018
+## Mission Hacks 2018
 
 Test

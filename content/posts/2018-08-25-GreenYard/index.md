@@ -6,11 +6,11 @@ author: "jeyzer"
 date: "2018-08-25"
 tags:
     - Hackathon
-    - Mission Hacks
-    - React-native
+    - Environment
+    - Mobile
 ---
 # Placeholder for GreenYard project
 
-## Hackathon 2018
+## HackQC 2018
 
 Test

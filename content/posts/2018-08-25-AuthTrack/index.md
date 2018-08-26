@@ -6,11 +6,11 @@ author: "jeyzer"
 date: "2018-08-25"
 tags:
     - Hackathon
-    - Mission Hacks
-    - React-native
+    - Blockchain
+    - Authentification
 ---
 # Placeholder for AuthTrack project
 
-## Hackathon 2018
+## NwHacks 2018
 
 Test
