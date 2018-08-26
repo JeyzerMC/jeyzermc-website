@@ -1,5 +1,21 @@
 // import FontIcon from "react-md/lib/FontIcons";
-import Link from "gatsby-link";
+import React from 'react'
+import GatsbyLink from "gatsby-link";
+
+const Link = (props) => {
+  const { href, to, ...others } = props
+
+  if (to) {
+    return (
+      <GatsbyLink {...others} to={to} />
+    )
+  }
+
+  return (
+    <a {...others} href={href} target="_blank" />
+  )
+}
+
 
 function GetNavList(config) {
   const NavList = [
@@ -33,6 +49,13 @@ function GetNavList(config) {
     component: Link,
     to: "/about/"
   });
+
+  NavList.push({
+    primaryText: "Resume",
+    component: Link,
+    href: '/resume.pdf'
+  });
+
   return NavList;
 }
 export default GetNavList;

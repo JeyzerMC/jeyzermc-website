@@ -1,0 +1,14 @@
+{
+    "id": "jeyzer",
+    "name": "Mehdi Chaid",
+    "image": "/images/profile.png",
+    "url": "http://jeyzermc.com",
+    "location": "Montreal, Canada",
+    "bio": "Software engineering student at Polytechnique Montreal, I have a passion for new technologies, game development and machine learning.",
+    "socialUrls": [
+      "https://github.com/JeyzerMC",
+      "https://linkedin.com/in/mehdi-chaid",
+      "https://devpost.com/Jeyzer"
+    ]
+  }
+  

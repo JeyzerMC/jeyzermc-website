@@ -11,7 +11,7 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`,
+      image_url: `${config.siteUrl + pathPrefix}/logos/rlogo.png`,
       author: config.siteRssAuthor,
       copyright: `${config.copyright.label} © ${config.copyright.year ||
         new Date().getFullYear()}`
@@ -81,12 +81,12 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: "/logos/logo-192x192.png",
+            src: "/logos/rlogo.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/logos/logo-512x512.png",
+            src: "/logos/rlogo.png",
             sizes: "512x512",
             type: "image/png"
           }

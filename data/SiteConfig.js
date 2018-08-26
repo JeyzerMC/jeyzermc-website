@@ -1,20 +1,20 @@
 module.exports = {
-  blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  blogPostDir: "posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
-  blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Mehdi Chaid, software engineering student", // Site title.
+  blogAuthorId: "jeyzer", // The default and fallback author ID used for blog posts without a defined author.
+  siteTitle: "Mehdi Chaid", // Site title.
   siteTitleAlt: "Mehdi Chaid, software engineering student", // Alternative site title for SEO.
   siteLogo:
-    "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+    "/logos/rlogo.png", // Logo used for SEO and manifest.,
   siteUrl: "https://jeyzermc.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "My personnal blog for software development projects [ON PROGRESS]", // Website description used for RSS feeds/meta description tag.
+    "Engineering student / Machine learning enthusiast", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteRssAuthor: "Casper User", // The author name used in the RSS file
+  siteRssAuthor: "Mehdi Chaid", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
   sitePaginationLimit: 10, // The max number of posts per page.
   googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
@@ -22,7 +22,7 @@ module.exports = {
   siteSocialUrls: [
     "https://github.com/JeyzerMC",
     "https://linkedin.com/in/mehdi-chaid",
-    "mailto:jeyzermc@gmail.com"
+    "https://devpost.com/Jeyzer"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
@@ -38,9 +38,9 @@ module.exports = {
       iconClassName: "fa fa-linkedin" // Disabled, see Navigation.jsx
     },
     {
-      label: "Email",
-      url: "mailto:jeyzermc@gmail.com",
-      iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
+      label: "Devpost",
+      url: "https://devpost.com/Jeyzer",
+      iconClassName: "fa fa-code" // Disabled, see Navigation.jsx
     }
   ],
   // Copyright string for the footer of the website and RSS feed.
