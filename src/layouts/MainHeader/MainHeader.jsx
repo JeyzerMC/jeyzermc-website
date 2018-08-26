@@ -1,6 +1,10 @@
 import React from "react";
 import classNames from "classnames";
+import Particles from 'react-particles-js'
 import "./MainHeader.css";
+
+import config from "../../../data/SiteConfig";
+import partConfig from "../../../data/particleConfig"
 
 class MainHeader extends React.Component {
   render() {
@@ -19,6 +23,14 @@ class MainHeader extends React.Component {
 
     return (
       <header className={classes} style={getStyle()}>
+        <Particles
+          params={
+            partConfig
+          }
+          style={{
+            width: '100%',
+            position: 'absolute',
+          }} />
         {children}
       </header>
     );
