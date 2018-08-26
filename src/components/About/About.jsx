@@ -7,6 +7,14 @@ class About extends Component {
       <div className="about">
         <h1>
           About page incoming
+
+          Work in progress:
+            - About description
+            - Timeline
+            - Animations
+            - Blog content
+            - Search / Navigation
+            - Tag display and content grouping
         </h1>
       </div>
     );
