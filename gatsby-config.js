@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "authors",
-        path: `${__dirname}/content/${config.blogAuthorDir}`
+        name: `${config.blogAuthorDir}`,
+        path: `${__dirname}/content`
       }
     },
     "gatsby-transformer-json",
