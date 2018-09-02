@@ -13,7 +13,7 @@ tags:
     - 2FA token
 ---
 
-Do you have two factor authentification activated on GitHub yet? You should. 2FA really helps making your account secure and you will regret not having it on your account the day someone get a hold of your password. 
+Do you have two factor authentification activated on GitHub yet? You most definitively should. 2FA really helps making your account secure and you will regret not having it on your account the day someone get a hold of your password. 
 
 ## Problem with 2FA
 
