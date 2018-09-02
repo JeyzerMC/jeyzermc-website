@@ -82,7 +82,8 @@
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "release": "standard-version -a"
+    "release": "standard-version -a",
+    "dev": "npm run -s clean & npm run -s develop"
   },
   "remarkConfig": {
     "plugins": [

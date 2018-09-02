@@ -1,5 +1,5 @@
 ---
-title: "Shell script for token pasting"
+title: "Bash script for token pasting"
 cover: "https://images.unsplash.com/photo-1433444306168-f18e2a8dde77?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ea3573964d1bb646868bcfe6e4ae9cba&auto=format&fit=crop&w=1650&q=80"
 category: "tech"
 author: "jeyzer"
@@ -10,6 +10,7 @@ tags:
     - Bash
     - Linux
     - Shortcuts
+    - 2FA token
 ---
 
 Do you have two factor authentification activated on GitHub yet? You should. 2FA really helps making your account secure and you will regret not having it on your account the day someone get a hold of your password. 
