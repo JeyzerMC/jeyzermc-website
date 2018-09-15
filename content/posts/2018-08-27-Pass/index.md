@@ -21,7 +21,7 @@ Let's assume you have taken a moment to setup 2FA on your account. You're now on
 
 A possible solution is to go in your developer settings, select the *Personal Access Token* tab and generate a new token. 
 
-![Imgur](https://i.imgur.com/nQIqUFR.png?2)
+<img src="https://i.imgur.com/nQIqUFR.png?2" width="100%">
 
 ## Personal access token
 
@@ -33,7 +33,7 @@ The thing is, once one is generated, you have to save it and use it everytime yo
 
 So now, you have the token saved in a text file for example, and everytime you try to login in your github account from a terminal or over HTTPS, you will need to open that text file, copy the token and then paste it on the password field in place of your password.
 
-![Imgur](https://i.imgur.com/Vt0Oc8a.gif)
+<img src="https://i.imgur.com/Vt0Oc8a.gif" width="100%">
 
 
 Surely there is a way to make this whole process faster? That was the question haunting my mind when I was faced with this situation. 
@@ -56,7 +56,7 @@ The solution is composed of many steps:
 
 Demo of the solution (`helloworld` is my previous clipboard content, not the token):
 
-![Imgur](https://i.imgur.com/5Pqrrag.gif)
+<img src="https://i.imgur.com/5Pqrrag.gif" width="100%">
 
 Step 1 is pretty straight forward. You get your token, save it into a file and close the file.
 
@@ -128,7 +128,7 @@ The computer I'm using right now is using Ubuntu Gnome, so I'll cover that.
 
 Navigate to `Settings`->`Devices`->`Keyboard` and add a new shortcut.
 
-![Keyboard Shortcuts](https://i.imgur.com/yGgpHgz.png?2)
+<img src="https://i.imgur.com/yGgpHgz.png?2" width="100%">
 
 Add a shortcut with the following command:
 
@@ -138,7 +138,7 @@ bash /path/to/script/token_accessor.sh
 
 Here we go, you can now enjoy a quick access to your token when needed!
 
-![Imgur](https://i.imgur.com/5Pqrrag.gif)
+<img src="https://i.imgur.com/5Pqrrag.gif" width="100%">
 
 
 ## Next steps

@@ -3,7 +3,7 @@ const config = require("./data/SiteConfig");
 const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: "/",
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
     rssMetadata: {
@@ -75,7 +75,7 @@ module.exports = {
         name: config.siteTitle,
         short_name: config.siteTitle,
         description: config.siteDescription,
-        start_url: config.pathPrefix,
+        start_url: pathPrefix,
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "minimal-ui",
