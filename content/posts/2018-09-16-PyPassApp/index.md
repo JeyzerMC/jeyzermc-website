@@ -87,13 +87,13 @@ pip install pyperclip
 Then add the following code at the end of our PassGen script:
 
 ```python
-    old_clip = pyperclip.paste()
+old_clip = pyperclip.paste()
 
-    pyperclip.copy(password)
+pyperclip.copy(password)
 
-    pyperclip.paste()
+pyperclip.paste()
 
-    pyperclip.copy(old_clip)
+pyperclip.copy(old_clip)
 ```
 
 We save the previous state of the clipboard, copy the generated password, paste it and restore the old content of the clipboard.
@@ -109,7 +109,7 @@ echo $temp | xclip -sel c
 sleep 0.5
 xdotool key ctrl+shift+v
 echo $oldclip | xclip -sel c 
-``
+```
 
 This code saves the previous clipboard state, run the PassGen script and paste the result where our cursor is. Then it restores the CTRL+C CTRL+V machine to its old glory, saving us the troubles of pasting passwords where undesired :)
 
