@@ -12,7 +12,7 @@ tags:
     - Shortcuts
 ---
 
-In the [last article](https://www.jeyzermc.com/bash-script-for-token-pasting), we covered the basics of bash scripting for pasting a 2FA token on demand. We'll now take this process a few steps further by adding support for password generation.
+In the [last article](/bash-script-for-token-pasting), we covered the basics of bash scripting for pasting a 2FA token on demand. We'll now take this process a few steps further by adding support for password generation.
 
 
 ## What will we build?

@@ -13,7 +13,7 @@ tags:
     - Shortcuts
 ---
 
-In [the previous article](https.jeyzermc.com), we made a small python script to generate a custom password with a given algorithm.
+In [the previous article](/password-generator-with-python), we made a small python script to generate a custom password with a given algorithm.
 
 The problem is, having to manually `cd` into the script directory, run it and copy the output can be painful. Running the algorithm in your head or a piece of paper would be even more troublesome, although it is a good fallback scenario and one of the main strength of this approach: You don't have to remember the password, just the salt and the algorithm. The brain is better at recalling patterns than unreadable strings anyway.
 
@@ -100,7 +100,7 @@ We save the previous state of the clipboard, copy the generated password, paste 
 
 ## Shell way
 
-Using shell, we can achieve the same result just as easily with xclip and xdotool, covered in [a previous tutorial](https://www.jeyzermc.com/bash-script-for-token-pasting):
+Using shell, we can achieve the same result just as easily with xclip and xdotool, covered in [a previous tutorial](/bash-script-for-token-pasting):
 
 ```shell
 oldclip=`xclip -sel c -o`
@@ -122,7 +122,7 @@ chmod +x example.sh
 
 ## Accessing the script
 
-Follow the guide at the end of the [Bash Script for Token Pasting](https://www.jeyzermc.com/bash-script-for-token-pasting) tutorial to assign a keyboard shortcut to your script, and you'll be rocking this:
+Follow the guide at the end of the [Bash Script for Token Pasting](/bash-script-for-token-pasting) tutorial to assign a keyboard shortcut to your script, and you'll be rocking this:
 
 <img src="assets/final.gif" width="100%">
 
