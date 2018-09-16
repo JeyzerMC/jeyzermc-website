@@ -3,7 +3,7 @@ title: "Password generator with Python"
 cover: "https://images.unsplash.com/photo-1522251670181-320150ad6dab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ffb5fa03315c9a9674fe4ef0aee552e&auto=format&fit=crop&w=1966&q=80"
 category: "tech"
 author: "jeyzer"
-date: "2018-09-15"
+date: "2018-09-16"
 tags:
     - Password
     - Scripting
