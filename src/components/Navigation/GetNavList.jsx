@@ -30,19 +30,6 @@ function GetNavList(config) {
     }
   ];
 
-  if (config.userLinks) {
-    config.userLinks.forEach(link => {
-      NavList.push({
-        primaryText: link.label,
-        // LeftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
-        component: "a",
-        href: link.url
-      });
-    });
-  }
-
-  NavList.push({ divider: true });
-
   NavList.push({
     primaryText: "About",
     // LeftIcon: <FontIcon>person</FontIcon>,
@@ -55,6 +42,19 @@ function GetNavList(config) {
     component: Link,
     href: '/resume.pdf'
   });
+
+  if (config.userLinks) {
+    config.userLinks.forEach(link => {
+      NavList.push({
+        primaryText: link.label,
+        // LeftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
+        component: "a",
+        href: link.url
+      });
+    });
+  }
+
+  // NavList.push({ divider: true });
 
   return NavList;
 }

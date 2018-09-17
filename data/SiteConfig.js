@@ -22,7 +22,7 @@ module.exports = {
   siteSocialUrls: [
     "https://github.com/JeyzerMC",
     "https://linkedin.com/in/mehdi-chaid",
-    "https://devpost.com/Jeyzer"
+    "/resume.pdf"
   ],
   postDefaultCategoryID: "Tech", // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
