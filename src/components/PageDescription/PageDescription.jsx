@@ -13,7 +13,6 @@ class PageDescription extends React.Component {
         <TypistCycle
           content={[
             'Engineering student',
-            'Machine Learning enthusiast',
             'Game developer',
           ]}
           numberOfCycles={-1} // loop indefinitely
